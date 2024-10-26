@@ -1,0 +1,672 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navigation Bar */
+.atas {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.atas h1 {
+    color: white;
+    font-size: 28px;
+    margin: 0;
+}
+
+.atas button {
+    background-color: #FFC007;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Hero Section */
+.des1 {
+    background: url(background-wpp.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.des1 button {
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.kiri {
+    max-width: 40%;
+    color: white;  
+}
+
+.des1 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.des1 img {
+    max-width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Video Section */
+.vid {
+    padding: 60px 20px;
+    text-align: center; 
+    background-color: #f8f8f8;
+}
+
+.vid iframe {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Partner Section */
+.mitra {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.mitra h1 {
+    margin-bottom: 30px;
+}
+
+.mitra-img {
+    margin: 10px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.mitra-img img {
+    max-width: 250px;
+    height: 80px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+/* Packages Section */
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.paket {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 300px;
+    flex: 1;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.paket:hover {
+    transform: translateY(-10px);
+}
+
+.paket img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.paket h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.paket p {
+    color: gray;
+    font-size: 18px;
+}
+
+.paket li {
+    text-align: left;
+    color: rgb(81, 80, 80);
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.paket h3 {
+    font-size: 22px;
+    color: #FE6532;
+    margin-top: 20px;
+}
+
+.paket button {
+    background-color: #333333;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    margin-top: 15px;
+}
+
+/* Destinations Section */
+.destinasi {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.destinasi button {
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.desti-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.desti-list img {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.explain {
+    font-size: 22px;   
+    padding: 30px;
+    max-width: 400px;
+    flex: 1;
+    text-align: left;
+}
+
+/* Gallery Section */
+.galeri {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.galeri img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.galeri img:hover {
+    transform: scale(1.1);
+}
+
+/* Reasons Section */
+.reason {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+    color: #555;
+}
+
+.list {
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.list span {
+    background-color: #47B02C; 
+    padding: 5px; 
+    border-radius: 50%; 
+    color: white;
+}
+
+/* Testimonials Section */
+.testimoni {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 20px;
+}
+
+.pelanggan {
+    padding: 30px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 20px;
+    color: gray;
+}
+
+.pelanggan img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* FAQ Section */
+.tanya {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.pertanyaan {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.pertanyaan h2 {
+    color: #FFC007;
+    margin-bottom: 10px;
+}
+
+.pertanyaan p {
+    color: gray;
+    font-size: 18px;
+}
+
+/* Call-to-Action Section */
+.cta {
+    background-color: #FFC007;
+    padding: 50px 20px;
+    text-align: center;
+    color: #333;
+}
+
+.cta p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cta button {
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+footer {
+    background-color: #333333;
+    padding: 50px;
+    color: lightgray;
+    text-align: center;
+}
+
+.footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-column h2, .footer-column h3 {
+    color: #FFC007;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.footer-column p {
+    font-size: 20px;
+}
+.footer-column button {
+    background-color: #FFC007;
+    color: #333333;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.social-icons i {
+    margin: 0 5px;
+    color: white;
+    font-size: 30px;
+}
+
+
+/* Tablet View (768px and above) */
+@media (max-width: 1024px) {
+    .atas {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .atas h1 {
+        margin-bottom: 10px;
+    }
+
+    .des1 {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .des1 img {
+        max-width: 70%;
+        margin-top: 20px;
+    }
+
+    .kiri {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .card {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .paket {
+        max-width: 90%;
+    }
+
+    .desti-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desti-list img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .reason ul li {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 100%;
+    }
+
+    .testimoni {
+        flex-direction: column;
+    }
+
+    .pelanggan {
+        width: 80%;
+    }
+
+    .pertanyaan {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/* Mobile View (480px and above) */
+@media (max-width: 768px) {
+    .atas {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .des1 {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .des1 img {
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .kiri {
+        max-width: 100%;
+    }
+    .kiri p {
+        font-size: 16px;
+    }
+
+    .vid {
+        padding: 30px 10px;
+    }
+    .vid h1 {
+        font-size: 25px;
+    }
+    .mitra-img {
+        max-width: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .mitra h1 {
+        font-size: 25px;
+    }
+
+    .card {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .paket {
+        max-width: 70%;
+        padding: 20px;
+    }
+    .paket p {
+        font-size: 17px;
+    }
+    .paket li {
+        font-size: 16px;
+    }
+    .paket h3 {
+        font-size: 20px;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .paket img {
+        border-radius: 0%;
+    }
+
+    .destinasi h1 {
+        font-size: 25px;
+    }
+    .destinasi p {
+        font-size: 16px;
+    }
+    .desti-list {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .desti-list img {
+        width: 70%;
+    }
+
+    .galeri img {
+        width: 45%;
+        margin: 10px ;
+    }
+
+    .reason h1 {
+        font-size: 25px;
+    }
+
+    .list {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .testimoni {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pelanggan {
+        width: 60%;
+        font-size: 16px;
+    }
+
+    .tanya {
+        justify-content: center;
+        align-items: center;
+        margin-right: 8%;
+    }
+    .tanya h1 {
+        font-size: 25px;
+    }
+    .pertanyaan {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .cta {
+        padding: 30px 20px;
+    }
+    .cta p {
+        font-size: 16px;
+    }
+
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-section p {
+        font-size: 16px;
+    }
+}
+
+/* Small Mobile View (up to 480px) */
+@media (max-width: 480px) {
+    .atas {
+        padding: 15px;
+    }
+
+    .atas h1 {
+        font-size: 20px;
+    }
+
+    .atas button {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .des1 {
+        padding: 20px 10px;
+    }
+
+    .des1 img {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .des1 p, .kiri {
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .vid iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .mitra-img {
+        max-width: 80px;
+    }
+
+    .paket img {
+        width: 100%;
+        height: auto;
+    }
+
+    .paket {
+        padding: 15px;
+    }
+
+    .paket h2, .paket p, .paket li, .paket h3 {
+        font-size: 16px;
+    }
+
+    .desti-list img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .galeri img {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .reason ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .pelanggan img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .pelanggan {
+        padding: 15px;
+    }
+
+    .pertanyaan {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .cta p {
+        font-size: 18px;
+    }
+
+    .cta button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    footer th, footer td {
+        font-size: 16px;
+    }
+}
